@@ -1,0 +1,146 @@
+.skills {
+  padding: 2rem;
+  background: #DFEBF6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  border-bottom: 1px solid #ddd;
+}
+
+.skills h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.skills-column {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.skills-column:hover {
+  transform: scale(1.05);
+  background: #E6E6E6;
+}
+
+.skills-column h3 {
+  font-size: 1.5rem;
+  color: #44576D;
+  margin-bottom: 1rem;
+}
+
+.skills-column ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-column ul li {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.skills-column ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* Added Styles for Certifications link */
+.certifications {
+  margin-top: 3rem;
+}
+
+.certifications-link {
+  font-size: 1.2rem;
+  color: #29353C;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #29353C;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.certifications-link:hover {
+  background-color: #0056b3;
+  color: #f5f5f5;
+}
+
+/* Media Queries for Tablets */
+@media (max-width: 768px) {
+  .skills {
+    padding: 1.5rem;
+  }
+
+  .skills h2 {
+    font-size: 2.5rem;
+  }
+
+  .skills-grid {
+    gap: 1.5rem;
+  }
+
+  .skills-column {
+    padding: 1rem;
+  }
+
+  .skills-column h3 {
+    font-size: 1.3rem;
+  }
+
+  .skills-column ul li {
+    font-size: 0.9rem;
+  }
+
+  .certifications-link {
+    font-size: 1rem;
+    padding: 0.4rem 1rem;
+  }
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 480px) {
+  .skills {
+    padding: 1rem;
+  }
+
+  .skills h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .skills-grid {
+    gap: 1rem;
+  }
+
+  .skills-column {
+    padding: 0.8rem;
+  }
+
+  .skills-column h3 {
+    font-size: 1.2rem;
+  }
+
+  .skills-column ul li {
+    font-size: 0.8rem;
+  }
+
+  .certifications-link {
+    font-size: 0.9rem;
+    padding: 0.3rem 0.8rem;
+  }
+}

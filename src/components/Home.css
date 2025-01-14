@@ -1,0 +1,81 @@
+/* Home Section Styling */
+.home-section {
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center content vertically */
+  min-height: 100vh; /* Combine header and home content height */
+  background: #DFEBF6; /* Light background */
+  text-align: center;
+  scroll-margin-top: 80px; /* Offset for smooth scrolling with fixed navbar */
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-content h1 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.home-content p {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 2rem;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.home-content button {
+  padding: 0.75rem 1.5rem;
+  background-color: #44576D;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.home-content button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+  .home-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+
+  .home-content p {
+    font-size: 1.4rem;
+    color: #666;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    line-height: 1.6;
+  }
+}
+/* Media Queries for Mobile Devices */
+@media (max-width: 480px) {
+  .home-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  .home-content p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    line-height: 1.6;
+  }
+
+}

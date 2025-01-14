@@ -1,0 +1,103 @@
+/* Contact Section Styling */
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stack items vertically */
+  min-height: 70vh; /* Adjusted height */
+  background-color: #f9f9f9; /* Optional: Background color */
+  text-align: center; /* Center-align text */
+  padding: 20px;
+  scroll-margin-top: 80px; /* Offset for fixed navbar */
+}
+
+/* Contact Container */
+#contact .contact-container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center-align items */
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px; /* Optional: Limit max width */
+}
+
+#contact h2 {
+  font-size: 2.5rem; /* Slightly smaller for better balance */
+  margin-bottom: 1rem; /* Add spacing below heading */
+  color: #333; /* Darker color for better readability */
+}
+
+/* Contact Info */
+#contact .contact-info {
+  display: flex;
+  flex-direction: column; /* Stack contact info vertically */
+  align-items: center; /* Center-align items */
+  margin-top: 1rem;
+  width: 100%;
+}
+
+#contact .conect-msg{
+  font-size: 1.3rem;
+  color: #555
+}
+
+#contact .contact-info h3 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  color: #555;
+  font-weight: 600; /* Slightly bold for emphasis */
+}
+
+/* Styling for each contact item (label and content) */
+#contact .contact-info p {
+  font-size: 1.1rem;
+  color: #333;
+  margin: 4px 0; /* Reduced margin for closer spacing */
+  width: 100%;
+  text-align: center; /* Center-align text */
+}
+
+#contact .contact-info a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin: 4px 0; /* Reduced margin for closer spacing */
+  display: inline-block; /* Inline block for better control */
+}
+
+#contact .contact-info a:hover {
+  color: #0056b3;
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Footer Copyright */
+#contact .footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  #contact h2 {
+    font-size: 2rem;
+  }
+
+  #contact .contact-info a {
+    font-size: 1rem;
+  }
+
+  #contact .footer {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #contact h2 {
+    font-size: 1.8rem;
+  }
+
+  #contact .contact-info a {
+    font-size: 0.9rem;
+  }
+}
