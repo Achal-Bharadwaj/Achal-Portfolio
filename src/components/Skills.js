@@ -63,9 +63,14 @@ function Skills() {
         ))}
       </div>
       <div className="certifications">
-        <a href="https://drive.google.com/drive/folders/1_MHcrhfmHKEyFSv856Yv_CYJr3cSaUlf" className="certifications-link">
-          Click here to view the certifications
-        </a>
+      <a 
+        href="https://drive.google.com/drive/folders/1_MHcrhfmHKEyFSv856Yv_CYJr3cSaUlf" 
+        className="certifications-link" 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        Click here to view the certifications
+      </a>
       </div>
     </section>
   );

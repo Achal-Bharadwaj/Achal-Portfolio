@@ -9,7 +9,8 @@ function Navbar() {
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
-      <a href="/ACHAL_ENG21CS0009.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+      <a href="https://drive.google.com/drive/folders/1_MHcrhfmHKEyFSv856Yv_CYJr3cSaUlf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+
     </nav>
   );
 }

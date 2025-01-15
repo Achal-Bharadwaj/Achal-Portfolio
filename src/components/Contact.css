@@ -80,11 +80,18 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
   #contact h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   #contact .contact-info a {
     font-size: 1rem;
+  }
+
+  #contact .contact-info h3 {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: #555;
+    font-weight: 600; /* Slightly bold for emphasis */
   }
 
   #contact .footer {
@@ -97,7 +104,27 @@
     font-size: 1.8rem;
   }
 
-  #contact .contact-info a {
-    font-size: 0.9rem;
+  #contact .contact-info h3 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    color: #555;
+    font-weight: 600; /* Slightly bold for emphasis */
   }
+
+  #contact .contact-info a {
+    font-size: 1rem;
+  }
+
+  #contact .conect-msg{
+    font-size: 1.3rem;
+
+  }
+  
+  /* Styling for each contact item (label and content) */
+  #contact .contact-info p {
+    font-size: 1rem;
+    text-align: left; /* Center-align text */
+  }
+
+  
 }

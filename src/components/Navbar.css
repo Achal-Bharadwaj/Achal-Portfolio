@@ -31,15 +31,16 @@
 }
 
 /* Media Queries for Tablets */
-@media (max-width: 768px) {
+@media (max-width: 550px) {
   .navbar {
       flex-direction: column; /* Stack the navbar items vertically */
       align-items: flex-start; /* Align items to the top */
-      padding: 1rem;
+      padding: 0.5rem;
   }
 
   .navbar a {
-      margin: 0.5rem 0; /* Reduce space between links */
+      margin: 0.2rem 0; /* Reduce space between links */
+      line-height: 1;
   }
 
   .navbar .logo {
@@ -50,15 +51,16 @@
 /* Media Queries for Mobile Devices */
 @media (max-width: 480px) {
   .navbar {
-      padding: 0.5rem 1rem; /* Reduce padding for smaller screens */
+      padding: 0.2rem 1rem; /* Reduce padding for smaller screens */
   }
 
   .navbar .logo {
-      font-size: 1.2rem; /* Reduce logo size for smaller screens */
+      font-size: 1rem; /* Reduce logo size for smaller screens */
   }
 
   .navbar a {
       font-size: 0.9rem; /* Reduce font size for links */
-      margin: 0.5rem 0; /* Adjust spacing for smaller screens */
+      margin: 0.2rem 0; /* Adjust spacing for smaller screens */
+      line-height: 1;
   }
 }

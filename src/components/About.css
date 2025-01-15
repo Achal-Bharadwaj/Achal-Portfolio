@@ -40,7 +40,8 @@
   
     .about p {
       font-size: 1.1rem; /* Adjust paragraph font size for tablets */
-      max-width: 600px; /* Reduce the max width for better fit */
+      max-width: 600px;
+      line-height: 1.4;  /* Reduce the max width for better fit */
     }
   }
   
@@ -58,6 +59,7 @@
     .about p {
       font-size: 1rem; /* Smaller paragraph font for mobile */
       max-width: 100%; /* Utilize full width for better visibility */
+      line-height: 1.3; 
     }
   }
   

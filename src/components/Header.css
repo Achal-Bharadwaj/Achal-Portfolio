@@ -48,3 +48,22 @@
 .contact-info a i {
   margin-right: 0.5rem;
 }
+
+@media (max-width: 550px) {
+.header h1 {
+    display: none;
+}
+
+/* Subtitle Styling */
+.header h2 {
+  display: none;
+}
+.contact-info {
+  display: none;
+}
+
+.contact-info a {
+  display: none;
+}
+
+}
