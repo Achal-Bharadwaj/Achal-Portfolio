@@ -5,7 +5,7 @@
   align-items: center;
   flex-direction: column; /* Stack items vertically */
   min-height: 70vh; /* Adjusted height */
-  background-color: #f9f9f9; /* Optional: Background color */
+  background-color: #DFEBF6; /* Optional: Background color */
   text-align: center; /* Center-align text */
   padding: 20px;
   scroll-margin-top: 80px; /* Offset for fixed navbar */

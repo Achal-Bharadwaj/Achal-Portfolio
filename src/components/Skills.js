@@ -5,17 +5,17 @@ function Skills() {
   const skills = [
     {
       category: 'Languages',
-      items: ['HTML', 'CSS', 'JavaScript (Frontend & Backend)', 'Python'],
+      items: ['HTML', 'CSS', <strong>JavaScript (Frontend & Backend)</strong>, 'Python'],
     },
     {
       category: 'Frameworks & Libraries',
       items: [
-        'ReactJS',
-        'NodeJS',
+        <strong>ReactJS</strong>,
+        <strong>NodeJS</strong>,
         'ExpressJS',
         'jQuery',
         'Tailwind CSS',
-        'Bootstrap (UI/UX)',
+        <strong>Bootstrap (UI/UX)</strong>,
         'TensorFlow',
         'NumPy',
         'OpenCV',

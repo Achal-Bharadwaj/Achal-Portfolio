@@ -7,14 +7,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "latest",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1"
   },
@@ -38,8 +36,6 @@
     ]
   },
   "devDependencies": {
-    "gh": "^1.11.14",
-    "gh-pages": "^6.3.0",
-    "pages": "^0.0.16"
+    "gh-pages": "^6.3.0"
   }
 }
