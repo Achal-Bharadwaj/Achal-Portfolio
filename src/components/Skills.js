@@ -5,7 +5,7 @@ function Skills() {
   const skills = [
     {
       category: 'Languages',
-      items: ['HTML', 'CSS', <strong>JavaScript (Frontend & Backend)</strong>, 'Python'],
+      items: ['HTML', 'CSS', <strong>JavaScript (Frontend & Backend)</strong>, 'Python (Generative AI)'],
     },
     {
       category: 'Frameworks & Libraries',
@@ -33,7 +33,7 @@ function Skills() {
     },
     {
       category: 'Tools & Software',
-      items: ['Git', 'GitHub', 'Figma (UI/UX)', 'VS Code', 'Atom'],
+      items: ['GitHub', 'Figma (UI/UX)', 'VS Code', 'Atom'],
     },
     {
       category: 'Soft Skills',

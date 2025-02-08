@@ -25,6 +25,7 @@
     text-align: center; /* Center-align the text */
     margin-left: auto; /* Center horizontally */
     margin-right: auto; /* Center horizontally */
+    text-align: justify;
   }
   
   /* Media Queries for Tablets */
@@ -42,6 +43,7 @@
       font-size: 1.1rem; /* Adjust paragraph font size for tablets */
       max-width: 600px;
       line-height: 1.4;  /* Reduce the max width for better fit */
+      
     }
   }
   

@@ -1,66 +1,92 @@
 .navbar {
   display: flex;
-  justify-content: flex-end; /* Align all items to the right */
-  align-items: flex-start; /* Align items to the top */
+  justify-content: flex-end; /* Space between logo & menu */
+  align-items: center;
   padding: 1rem 2rem;
   background: #29353C;
-  color: #fff;
-  width: 100%; /* Ensure the navbar takes full width */
-  box-sizing: border-box; /* Include padding in the width calculation */
-  overflow: hidden; /* Prevent overflow of content */
-  position: fixed; /* Fixed position for the navbar */
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
   top: 0;
-  right: 0;
-  z-index: 1000; /* Ensure it stays on top of other elements */
+  left: 0;
+  z-index: 1000;
+}
+
+/* Navigation Links */
+.navbar-links {
+  gap: 1rem;
 }
 
 .navbar a {
   color: #fff;
-  margin: 0 1rem;
   text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1rem;
 }
 
 .navbar a:hover {
   color: #0c82ff;
 }
 
-.navbar .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-right: 1rem;
+/* Hamburger Menu Button */
+.menu-toggle {
+  display: none; /* Hidden on desktop */
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
-/* Media Queries for Tablets */
-@media (max-width: 550px) {
+/* Responsive: Tablet & Mobile */
+@media (max-width: 768px) {
+
   .navbar {
-      flex-direction: column; /* Stack the navbar items vertically */
-      align-items: flex-start; /* Align items to the top */
-      padding: 0.5rem;
+    justify-content: space-between;
   }
 
-  .navbar a {
-      margin: 0.2rem 0; /* Reduce space between links */
-      line-height: 1;
+  .menu-toggle {
+    display: block;
+     /* Show menu button */
   }
 
-  .navbar .logo {
-      margin-bottom: 1rem; /* Add spacing below the logo */
-  }
-}
-
-/* Media Queries for Mobile Devices */
-@media (max-width: 480px) {
-  .navbar {
-      padding: 0.2rem 1rem; /* Reduce padding for smaller screens */
-  }
-
-  .navbar .logo {
-      font-size: 1rem; /* Reduce logo size for smaller screens */
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #29353C;
+    text-align: center;
+    padding: 1rem 0;
   }
 
-  .navbar a {
-      font-size: 0.9rem; /* Reduce font size for links */
-      margin: 0.2rem 0; /* Adjust spacing for smaller screens */
-      line-height: 1;
+  .navbar-links.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    left: 35%;
+    transform: translateX(-50%);
+    width: 40%; /* Reduce width to avoid covering the whole page */
+    max-height: 20vh; /* Limit height to half of the screen */
+    background: rgba(41, 53, 60, 0.95); /* Semi-transparent background */
+    text-align: left;
+    padding: 0.2rem 0; /* Reduce padding */
+    border-radius: 5px; /* Add rounded corners */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+  }
+
+  .navbar-links a {
+    padding: 0 0.1rem;
+    width: 100%;
+    font-size: 0.9rem;
+    display: block;
+  }
+
+  .navbar-links a:hover {
+    background: #0c82ff;
+    color: #fff;
   }
 }

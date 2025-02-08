@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Achal-Portfolio/static/css/main.61731e89.css",
-    "main.js": "/Achal-Portfolio/static/js/main.fb159d9f.js",
+    "main.css": "/Achal-Portfolio/static/css/main.b830e4d9.css",
+    "main.js": "/Achal-Portfolio/static/js/main.516f4327.js",
     "static/media/project2.jpg": "/Achal-Portfolio/static/media/project2.93b924f14b6365eb97cd.jpg",
     "static/media/project1.jpg": "/Achal-Portfolio/static/media/project1.c6f2d060e16dfab7d405.jpg",
     "static/media/project5.jpg": "/Achal-Portfolio/static/media/project5.dd947aee670a24c7f8ee.jpg",
@@ -12,11 +12,11 @@
     "static/media/slick.ttf": "/Achal-Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Achal-Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Achal-Portfolio/index.html",
-    "main.61731e89.css.map": "/Achal-Portfolio/static/css/main.61731e89.css.map",
-    "main.fb159d9f.js.map": "/Achal-Portfolio/static/js/main.fb159d9f.js.map"
+    "main.b830e4d9.css.map": "/Achal-Portfolio/static/css/main.b830e4d9.css.map",
+    "main.516f4327.js.map": "/Achal-Portfolio/static/js/main.516f4327.js.map"
   },
   "entrypoints": [
-    "static/css/main.61731e89.css",
-    "static/js/main.fb159d9f.js"
+    "static/css/main.b830e4d9.css",
+    "static/js/main.516f4327.js"
   ]
 }

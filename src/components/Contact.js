@@ -15,7 +15,7 @@ function Contact() {
           <p>Email: <a href= "mailto:achalbharadwaj018@gmail.com"> achalbharadwaj018@gmail.com</a></p>
           
           <p>
-            LinkedIn: <a href="https://www.linkedin.com/in/achal-bharadwaj/" target="_blank" rel="noopener noreferrer"> www.linkedin.com/in/achal-bharadwaj</a>
+            LinkedIn: <a href="https://www.linkedin.com/in/achal-bharadwaj/" target="_blank" rel="noopener noreferrer"> linkedin.com/in/achal-bharadwaj</a>
           </p>
           <p>
             GitHub: <a href="https://github.com/Achal-Bharadwaj" target="_blank" rel="noopener noreferrer"> github.com/Achal-Bharadwaj</a>
