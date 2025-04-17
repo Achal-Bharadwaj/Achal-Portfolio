@@ -9,36 +9,38 @@ import project4 from '../assets/images/project4.jpg';
 import project5 from '../assets/images/project5.jpg';
 
 const projects = [
-  {
-    title: 'Booking a table on Little-Lemon Restaurant',
-    description: 'This project is a frontend web application focused on delivering a seamless and user-friendly UI/UX experience.',
-    image: project1,
-    link: 'https://github.com/Achal-Bharadwaj/Booking_table_on_Little-Lemon_Restaurant',
-  },
+
   {
     title: 'Event Management Dashboard',
-    description: 'It is a full-stack web application designed to manage events, attendees, and associated tasks effectively.',
-    image: project2,
+    description: 'A full-stack web application designed to manage events, attendees, and associated tasks effectively.',
+    image: project1,
     link: 'https://github.com/Achal-Bharadwaj/Event-Management-Dashboard',
   },
   {
-    title: 'Together Travel Tracker',
-    description: 'Developed a full-stack web application for group travel logging and tracking using Express.js and PostgreSQL.',
+    title: 'Medsecure System',
+    description: 'A secure backend system for managing patients, doctors, and their relationships — built using Django, REST, PostgreSQL, JWT',
+    image: project2,
+    link: 'https://github.com/Achal-Bharadwaj/MedSecure_System',
+  },
+  {
+    title: 'Booking a table on Little-Lemon Restaurant',
+    description: 'A frontend web application focused on delivering a seamless and user-friendly UI/UX experience.',
     image: project3,
-    link: 'https://github.com/Achal-Bharadwaj/Together-travel-tracker',
+    link: 'https://github.com/Achal-Bharadwaj/Booking_table_on_Little-Lemon_Restaurant',
+  },
+  {
+    title: 'Product_Transaction_Dashboard',
+    description: 'This MERN Stack project displays product transactions in a table with search, pagination, and interactive charts.',
+    image: project4,
+    link: 'https://github.com/Achal-Bharadwaj/Product_Transaction_Dashboard',
   },
   {
     title: 'Age and Gender Detection with OpenCV',
     description: 'This project uses Deep Neural Network (DNN) module to predict the gender and approximate age of individuals in an image.',
-    image: project4,
+    image: project5,
     link: 'https://github.com/Achal-Bharadwaj/Age-and-Gender-Detection-with-OpenCV-and-Deep-Learning',
   },
-  {
-    title: 'Multilingual Wikipedia GUI',
-    description: 'It allows users to search and read Wikipedia articles in multiple languages through an interactive interface.',
-    image: project5,
-    link: 'https://github.com/Achal-Bharadwaj/Multilingual-Wikipedia-GUI',
-  },
+
 ];
 
 function Projects() {
