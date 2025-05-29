@@ -5,10 +5,11 @@ function Skills() {
   const skills = [
     {
       category: 'Languages',
-      items: ['HTML', 
-              'CSS', 
-              <><strong>JavaScript</strong> (Frontend & Backend)</>,
-              <><strong>Python</strong> (OOP, Artificial Intelligence, Machine Learning)</>,],
+      items: [<></>,
+              <><strong>JavaScript</strong> (Fullstack development)</>,
+              <></>,
+              <><strong>Python</strong> (Machine Learning, Deep Learning)</>,
+            ],
     },
     {
       category: 'Frameworks & Libraries',
@@ -21,7 +22,6 @@ function Skills() {
         <strong>Django</strong>,
         'TensorFlow',
         'Streamlit',
-        'NLTK',
         'Tkinter',
       ],
     },
@@ -30,8 +30,7 @@ function Skills() {
       items: [
         'SQL (PostgreSQL, MySQL)',
         'NoSQL (MongoDB)',
-        'RESTful APIs',
-        'Fast API',
+        'RESTful API',
         'OAuth',
       ],
     },

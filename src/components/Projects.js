@@ -11,22 +11,22 @@ import project5 from '../assets/images/project5.jpg';
 const projects = [
 
   {
+    title: 'Rate My Store',
+    description: 'Rate-My-Store is a role-based app for store ratings built for users, owners, and admins to rate, manage, and monitor feedback.',
+    image: project1,
+    link: 'https://github.com/Achal-Bharadwaj/Rate-My-Store',
+  },
+  {
     title: 'Event Management Dashboard',
     description: 'A full-stack web application designed to manage events, attendees, and associated tasks effectively.',
-    image: project1,
+    image: project2,
     link: 'https://github.com/Achal-Bharadwaj/Event-Management-Dashboard',
   },
   {
     title: 'Medsecure System',
-    description: 'A secure backend system for managing patients, doctors, and their relationships — built using Django, REST, PostgreSQL, JWT',
-    image: project2,
-    link: 'https://github.com/Achal-Bharadwaj/MedSecure_System',
-  },
-  {
-    title: 'Booking a table on Little-Lemon Restaurant',
-    description: 'A frontend web application focused on delivering a seamless and user-friendly UI/UX experience.',
+    description: 'A secure backend system for managing patients, doctors, and their relationships — built using Python.',
     image: project3,
-    link: 'https://github.com/Achal-Bharadwaj/Booking_table_on_Little-Lemon_Restaurant',
+    link: 'https://github.com/Achal-Bharadwaj/MedSecure_System',
   },
   {
     title: 'Product_Transaction_Dashboard',
@@ -35,12 +35,12 @@ const projects = [
     link: 'https://github.com/Achal-Bharadwaj/Product_Transaction_Dashboard',
   },
   {
-    title: 'Age and Gender Detection with OpenCV',
-    description: 'This project uses Deep Neural Network (DNN) module to predict the gender and approximate age of individuals in an image.',
+    title: 'Booking a table on Little-Lemon Restaurant',
+    description: 'A frontend web application focused on delivering a seamless and user-friendly UI/UX experience.',
     image: project5,
-    link: 'https://github.com/Achal-Bharadwaj/Age-and-Gender-Detection-with-OpenCV-and-Deep-Learning',
+    link: 'https://github.com/Achal-Bharadwaj/Booking_table_on_Little-Lemon_Restaurant',
   },
-
+  
 ];
 
 function Projects() {
